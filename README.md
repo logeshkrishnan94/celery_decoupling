@@ -21,6 +21,8 @@ test - Module containing celery_test, template class and celery_app
     celery_app.py (app initiation, broker and backend, task registration, model config)
 
     celery_task_class.py (Template class definition) 
+    
+    celery_test.py (to call tasks)
 
 ## To run the example
 
