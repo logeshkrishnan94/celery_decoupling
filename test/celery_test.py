@@ -1,6 +1,6 @@
 import time
-from celery_module.celery import app
-from celery_module.celery_task_class import dummyclass
+from celery_app import app
+from celery_task_class import templateClass
 
 def run_test():
     task1 = app.tasks["add"]

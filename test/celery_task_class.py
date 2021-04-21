@@ -1,6 +1,6 @@
 from celery import Task
 
-class dummyclass(Task):
+class templateClass(Task):
     def __init__(self, problem):
         super().__init__()
         self.name = problem
